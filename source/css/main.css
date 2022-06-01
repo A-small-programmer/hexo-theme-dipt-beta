@@ -259,3 +259,69 @@ aside #tree i.fa {
 }
 
 /* #################### 文章 #################### */
+/* #################### 主页 #################### */
+
+#articleList {
+    position: absolute;
+}
+
+#articleList .article-li {
+    margin: 20px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px #999;
+    list-style: none;
+    border: 1px solid #999;
+}
+
+#articleList .article-digest * {
+    word-wrap: break-word;
+    display: inline;
+    font-size: 12px;
+    color: #555;
+    text-decoration: none;
+    cursor:auto;
+    border-radius: none;
+    box-shadow: none;
+}
+
+#articleList .article-digest{
+    padding: 30px;
+    position: relative;
+    top: 35px;
+    width: 85%;
+}
+
+#articleList .article-date{
+    position: relative;
+    background: #e06c75;
+    color: #f9f7ed;
+    padding: 10px;
+    top: -5px;
+    border-radius: 2px;
+    margin-left: 30px;
+}
+
+#articleList .article-read {
+    position: absolute;
+    background: #e06c75;
+    color: #f9f7ed;
+    padding: 10px;
+    border-radius: 2px;
+    right: 15px;
+    margin-top: 140px;
+    text-decoration: none;
+    z-index: 1;
+}
+
+#articleList .article-title {
+    position: relative;
+    color: #555;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    top: 50px;
+    right: 110px;
+}
+
+/* #################### 主页 #################### */
