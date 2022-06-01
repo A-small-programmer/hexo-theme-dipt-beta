@@ -1,0 +1,11 @@
+title: 一个小程序员的小站
+
+author: 一个小程序员
+
+menus: 
+  主页: /
+  关于: /about/site
+
+links:
+  github: https://github.com/A-small-programmer
+  dipt v0.0.1: https://github.com/A-small-programmer/hexo-theme-dipt
