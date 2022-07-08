@@ -328,3 +328,37 @@ border-bottom-right-radius: 3px;
 }
 
 /* #################### 主页 #################### */
+/* #################### 自适应 #################### */
+
+@media screen and (max-width: 800px) {
+	aside {
+		display: none;
+	}
+
+	#content {
+		padding-left: 0;
+	}
+
+	canvas#live2dcanvas {
+		display: none;
+	}
+}
+
+/*竖屏*/
+@media all and (orientation : portrait) {
+
+	aside {
+		display: none;
+	}
+
+	#content {
+		padding-left: 0;
+	}
+
+	canvas#live2dcanvas {
+		display: none;
+	}
+
+}
+
+/* #################### 自适应 #################### */
