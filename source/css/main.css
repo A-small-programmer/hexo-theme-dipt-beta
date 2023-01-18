@@ -4,6 +4,13 @@
     padding: 0;
     border: 0;
 }
+.fireworks {
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: $fireworks-z-index;
+      pointer-events: none;
+}
 
 html, body {
     height: 100%;
